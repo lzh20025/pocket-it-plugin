@@ -1,0 +1,20 @@
+{
+  "name": "pocket-it-marketplace",
+  "interface": {
+    "displayName": "Pocket It"
+  },
+  "plugins": [
+    {
+      "name": "pocket-it",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

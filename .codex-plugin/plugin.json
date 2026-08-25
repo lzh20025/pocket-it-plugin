@@ -1,0 +1,34 @@
+{
+  "name": "pocket-it",
+  "version": "0.1.0",
+  "description": "Send AI-generated artifacts directly to Pocket It on your phone.",
+  "author": {
+    "name": "Pocket It"
+  },
+  "repository": "https://github.com/lzh20025/pocketit.git",
+  "license": "MIT",
+  "keywords": [
+    "pocket-it",
+    "markdown",
+    "artifacts",
+    "icloud",
+    "iphone"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Pocket It",
+    "shortDescription": "Send AI-generated artifacts directly to your phone",
+    "longDescription": "Send completed Markdown and other supported text artifacts from Codex to the Pocket It iOS app through its iCloud sync workspace. The sender is bundled with the plugin and does not require a global pocketit CLI.",
+    "developerName": "Pocket It",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Send the artifact we just created to Pocket It",
+      "Send this Markdown file to my phone",
+      "Save the PRD as Markdown and send it to Pocket It"
+    ]
+  }
+}

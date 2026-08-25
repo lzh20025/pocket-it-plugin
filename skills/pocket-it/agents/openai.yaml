@@ -1,0 +1,6 @@
+interface:
+  display_name: "Pocket It"
+  short_description: "Send completed artifacts directly to your phone"
+  default_prompt: "Use $pocket-it to send the artifact we just created to my phone."
+policy:
+  allow_implicit_invocation: true

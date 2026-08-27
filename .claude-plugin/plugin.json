@@ -1,0 +1,17 @@
+{
+  "name": "pocket-it",
+  "version": "0.2.0",
+  "description": "Send AI-generated artifacts directly to Pocket It on your phone.",
+  "author": {
+    "name": "Pocket It"
+  },
+  "repository": "https://github.com/lzh20025/pocket-it-plugin",
+  "license": "MIT",
+  "keywords": [
+    "pocket-it",
+    "markdown",
+    "artifacts",
+    "icloud",
+    "iphone"
+  ]
+}

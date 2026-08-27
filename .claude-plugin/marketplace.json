@@ -1,0 +1,22 @@
+{
+  "name": "pocket-it-marketplace",
+  "owner": {
+    "name": "Pocket It",
+    "url": "https://github.com/lzh20025"
+  },
+  "description": "Official Pocket It plugins for AI coding agents.",
+  "plugins": [
+    {
+      "name": "pocket-it",
+      "source": {
+        "source": "github",
+        "repo": "lzh20025/pocket-it-plugin"
+      },
+      "description": "Send AI-generated artifacts directly to Pocket It on your phone.",
+      "version": "0.2.0",
+      "author": {
+        "name": "Pocket It"
+      }
+    }
+  ]
+}
